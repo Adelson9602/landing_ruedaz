@@ -19,4 +19,10 @@
   </v-row>
 </template>
 <script lang="ts" setup></script>
-<style lang=""></style>
+<style lang="scss">
+@media (max-width: 575.98px) {
+  video {
+    width: 100%;
+  }
+}
+</style>

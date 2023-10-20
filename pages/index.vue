@@ -82,14 +82,4 @@ const items = [
 ];
 </script>
 
-<style lang="scss">
-@media (max-width: 575.98px) {
-  h1 {
-    font-size: 26px;
-  }
-
-  video {
-    width: 100%;
-  }
-}
-</style>
+<style lang="scss"></style>
