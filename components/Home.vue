@@ -80,15 +80,6 @@
       </p>
     </v-col>
   </v-row>
-
-  <v-row no-gutters>
-    <v-col cols="12">
-      <h2>A solo tres pasos de cambiar tu forma de parquear</h2>
-    </v-col>
-    <v-col>
-      <v-sheet class="pa-2 ma-2"> .v-col-auto </v-sheet>
-    </v-col>
-  </v-row>
 </template>
 <script lang="ts" setup>
 import { useDisplay } from 'vuetify';
