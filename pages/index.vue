@@ -4,6 +4,8 @@
 
     <step-parking />
 
+    <plans />
+
     <videos />
 
     <v-row>
@@ -38,13 +40,13 @@
           </p>
         </v-img>
       </v-col>
-
-      <help />
     </v-row>
+
+    <help />
   </v-container>
 </template>
 <script lang="ts" setup>
-import { Videos, Help, Home, StepParking } from '../components';
+import { Videos, Help, Home, StepParking, Plans } from '../components';
 </script>
 
 <style lang="scss"></style>

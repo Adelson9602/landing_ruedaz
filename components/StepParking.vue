@@ -1,10 +1,9 @@
-import type { CustomAppConfig from 'nuxt/schema';
 <template>
   <v-row class="mt-10">
     <v-col cols="12">
       <h2 class="title text-center">
-        A solo <span class="important">tres pasos</span> de cambiar tu
-        <span class="important">forma de parquear</span>
+        A solo <span class="text-cyan-accent-3">tres pasos</span> de cambiar tu
+        <span class="text-cyan-accent-3">forma de parquear</span>
       </h2>
     </v-col>
     <v-col cols="12">
@@ -18,18 +17,6 @@ import type { CustomAppConfig from 'nuxt/schema';
         </template>
       </v-list>
     </v-col>
-    <v-col cols="12">
-      <h2>
-        Elige el plan que mejor se ajuste a tus necesidades y comienza hoy
-        mismo.
-      </h2>
-    </v-col>
-    <v-col cols="12">
-      <plan />
-    </v-col>
-    <v-col cols="12">
-      <plan />
-    </v-col>
   </v-row>
 </template>
 <script lang="ts" setup>
@@ -37,17 +24,17 @@ const items = [
   {
     avatar: '/images/beneficio_1.png',
     subtitle:
-      'Elige el <span class="important text-important">plan</span> de tu preferencia y <span class="important text-important">registrate</span>!'
+      'Elige el <span class="text-cyan-accent-3">plan</span> de tu preferencia y <span class="text-cyan-accent-3">registrate</span>!'
   },
   {
     avatar: '/images/beneficio_2.png',
     subtitle:
-      'Descarga la <span class="important text-important">APP</span> y recarga tu <span class="important text-important">billetera</span>!'
+      'Descarga la <span class="text-cyan-accent-3">APP</span> y recarga tu <span class="text-cyan-accent-3">billetera</span>!'
   },
   {
     avatar: '/images/beneficio_2.png',
     subtitle:
-      'Disfruta y <span class="important text-important">parquea</span> sin preocupación!'
+      'Disfruta y <span class="text-cyan-accent-3">parquea</span> sin preocupación!'
   }
 ];
 </script>
@@ -64,16 +51,5 @@ const items = [
 
 .v-list-item-subtitle {
   opacity: 1;
-}
-
-@media (max-width: 575.98px) {
-  .important {
-    color: #00d2ea;
-  }
-
-  .text-important {
-    font-size: 20px;
-    font-weight: 700;
-  }
 }
 </style>
