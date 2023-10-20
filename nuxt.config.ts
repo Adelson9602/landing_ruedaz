@@ -17,5 +17,9 @@ export default defineNuxtConfig({
       },
       useVuetifyLabs: true
     }
+  },
+  typescript: {
+    typeCheck: true,
+    strict: true
   }
 });

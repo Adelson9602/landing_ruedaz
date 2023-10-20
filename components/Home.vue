@@ -4,7 +4,7 @@
       <v-card color="#1d1d1d" theme="dark" class="pa-5">
         <v-row no-gutters>
           <v-col cols="9">
-            <h1>
+            <h1 class="title">
               Ahorra
               <span class="text-cyan-accent-3">
                 con la única suscripción para parquear
@@ -87,13 +87,6 @@ const { mobile } = useDisplay();
 </script>
 <style lang="scss">
 @media (max-width: 575.98px) {
-  h1 {
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-
   p {
     font-weight: 200;
     font-style: normal;
